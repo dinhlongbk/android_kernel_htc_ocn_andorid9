@@ -13,8 +13,8 @@
 #include <linux/notifier.h>
 #include <linux/fb.h>
 #endif /* CONFIG_FB */
-#include <supply/qcom/smb-reg.h>
-#include <supply/qcom/fg-reg.h>
+#include "supply/qcom/smb-reg.h"
+#include "supply/qcom/fg-reg.h"
 
 static struct htc_battery_info htc_batt_info;
 static struct htc_battery_timer htc_batt_timer;

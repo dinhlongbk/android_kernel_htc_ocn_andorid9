@@ -78,4 +78,7 @@ TRACE_EVENT(
 /* This part must be outside protection */
 #undef TRACE_INCLUDE_PATH
 #define TRACE_INCLUDE_PATH .
+
+#undef TRACE_INCLUDE_FILE
+#define TRACE_INCLUDE_FILE rndis_ipa_trace
 #include <trace/define_trace.h>

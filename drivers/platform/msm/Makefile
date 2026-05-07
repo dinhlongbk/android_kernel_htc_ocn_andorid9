@@ -1,6 +1,10 @@
 #
 # Makefile for the MSM specific device drivers.
 #
+
+ccflags-y += -I$(srctree)/drivers/platform/msm
+ccflags-y += -I$(srctree)/drivers/staging/android
+ccflags-y += -I$(srctree)/include/trace
 obj-$(CONFIG_QPNP_REVID) += qpnp-revid.o
 obj-$(CONFIG_QPNP_COINCELL) += qpnp-coincell.o
 obj-$(CONFIG_MSM_MHI) += mhi/

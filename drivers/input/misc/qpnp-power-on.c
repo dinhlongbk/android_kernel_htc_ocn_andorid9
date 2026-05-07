@@ -32,7 +32,7 @@
 #include <linux/regulator/of_regulator.h>
 #include <linux/input/qpnp-power-on.h>
 #include <linux/power_supply.h>
-#include <../../power/reset/htc_restart_handler.h>
+#include "../../power/reset/htc_restart_handler.h"
 
 #include <linux/htc_flags.h>
 
